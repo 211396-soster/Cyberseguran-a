@@ -1,1 +1,0 @@
-# Cyberseguran-a https://github.com/211396-soster/Cyberseguran-a
