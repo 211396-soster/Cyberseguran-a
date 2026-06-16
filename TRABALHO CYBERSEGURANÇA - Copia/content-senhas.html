@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dicas sobre senhas fortes, autenticação em dois fatores e gerenciadores de senhas para proteger suas contas online.">
+  <title>Senhas e Autenticação | Segurança da Informação</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons&display=block">
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Menu principal">
+      <a href="index.html" class="nav-logo">🔒 Segurança Digital</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="content-phishing.html">Phishing</a></li>
+      <li><a href="content-senhas.html" class="ativa" aria-current="page">Senhas</a></li>
+      <li><a href="seguranca.html">Gerador de Senhas</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <div class="nav-botoes">
+      <button type="button" id="botao-tema" aria-label="Alternar tema">🌙 Tema</button>
+      <button type="button" id="botao-fonte" aria-label="Aumentar acessibilidade"><span class="material-icons">accessibility</span> Acessibilidade</button>
+    </div>
+  </nav>
+  </header>
+
+  <main>
+
+    <section>
+      <h1>🔑 Senhas e Autenticação</h1>
+      <p>A senha é a principal barreira entre sua conta e um invasor. Apesar disso, a maioria das pessoas ainda usa senhas fracas, curtas ou repetidas em vários serviços.</p>
+    </section>
+
+    <section>
+      <h2>Por que senhas fracas são perigosas?</h2>
+      <p>Atacantes utilizam programas que testam milhões de combinações por segundo (<strong>força bruta</strong>) ou listas de senhas vazadas em outros sites (<strong>credential stuffing</strong>). Senhas simples como <code>123456</code> ou <code>minhasenha</code> são quebradas em segundos.</p>
+      <p>Quando uma senha é descoberta num site, ela costuma ser testada em todos os outros serviços da vítima — redes sociais, e-mail, banco. Reutilizar senhas multiplica o estrago de um único vazamento.</p>
+    </section>
+
+    <section>
+      <h2>O que faz uma senha ser forte?</h2>
+      <ul>
+        <li><strong>Tamanho:</strong> no mínimo 12 caracteres. Quanto maior, melhor.</li>
+        <li><strong>Variedade:</strong> misture letras maiúsculas, minúsculas, números e símbolos.</li>
+        <li><strong>Imprevisibilidade:</strong> nada de nome, data de nascimento ou sequências óbvias.</li>
+        <li><strong>Unicidade:</strong> cada serviço deve ter uma senha diferente.</li>
+      </ul>
+
+      <div class="dica">
+        <p><strong>✅ Dica: frases-senha</strong>Combine palavras aleatórias sem relação entre si: <code>girafa-trovão-cadeira-23!</code> É longa, fácil de lembrar e muito difícil de quebrar.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Autenticação em dois fatores (2FA)</h2>
+      <p>O 2FA adiciona uma segunda camada: além da senha, você precisa confirmar o acesso com um código gerado no celular, um token físico ou uma notificação no app. Mesmo que sua senha vaze, o atacante não entra sem o segundo fator.</p>
+      <ul>
+        <li>Prefira apps autenticadores (Google Authenticator, Authy) ao SMS, que pode ser interceptado.</li>
+        <li>Ative primeiro nas contas mais importantes: e-mail, banco, redes sociais.</li>
+        <li>Salve os códigos de recuperação em local seguro.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Gerenciadores de senha</h2>
+      <p>Impossível memorizar dezenas de senhas únicas e complexas. Gerenciadores (como Bitwarden ou KeePass) guardam tudo criptografado — você só precisa lembrar uma senha-mestra forte.</p>
+
+      <div class="aviso">
+        <p><strong>⚠️ Cuidado</strong>Não anote senhas em papel, em arquivos de texto simples ou no bloco de notas do celular sem proteção.</p>
+      </div>
+    </section>
+
+    <nav class="paginacao" aria-label="Navegação entre páginas">
+      <a href="content-phishing.html">← Anterior: Phishing</a>
+      <a href="seguranca.html">Testar o Gerador de Senhas →</a>
+    </nav>
+
+  </main>
+
+  <footer>
+    <p>Projeto Web Lab · UPF 2025 &nbsp;|&nbsp;
+      <a href="sobre.html">Sobre o grupo</a>
+      <a href="contato.html">Contato</a>
+    </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
